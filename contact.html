@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a {
+               text-decoration: none;
+       padding: 5px;
+       color: white;
+       
+       }
+   
+       nav{
+           background-color: salmon;
+           display: flex;
+           justify-content: space-around;
+           align-items: center;
+       }
+   
+       body{
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+       }
+       </style>
+</head>
+<body>
+    <nav>
+        <br>
+        <a href="./index.html">Home</a>
+        <a href="./Education.html">Education</a>
+        <a href="./work exp.html">Work experience</a>
+        <a href="./contact.html">Contact me</a>
+    </nav>
+
+    <h2>Contact me</h2> 
+    <h4>Enter your info</h4>
+<form action="https://jkorpela.fi/cgi-bin/echo.cgi">
+  <label for="fname">Your name:</label><br>
+  <input type="text" id="fname" name="fname" placeholder="enter your name"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" placeholder="enter your lastname"><br><br>
+  
+    <label for="gender">Choose your gender:</label>
+
+    <select name="gender" id="gender">
+        <br>
+        <option value="Select">Select..</option>
+      <option value="Women">Women</option>
+      <option value="Male">Male</option>
+      <option value="Rather not say"> Rather not say</option>
+    </select>
+      <br>
+<h3>Message</h3>
+      <textarea rows="4" cols="50" name="comment" form="usrform">
+        </textarea>
+    <br><br>  
+  <input type="submit" value="Send">
+</form> 
+</body>
+</html>
+
